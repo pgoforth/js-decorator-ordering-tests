@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "module": "system",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "sourceMap": true,
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.d.ts",
+      "__tests__/*.js",
+      "**/*.test.js"
+    ]
+  }
